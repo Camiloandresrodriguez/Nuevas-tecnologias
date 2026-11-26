@@ -54,3 +54,13 @@ print(startswith)
 cadena11 = "esta cadena termina asi"
 endswith = cadena11.endswith("asi")
 print(endswith)
+
+#metodo replace, (este metodo permite reemplazar cualquier caracter o dato de una cadena por otro valor)
+cadena12 = "se reemplaza esta parta"
+replace = cadena12.replace("se reemplaza esta parta", "se reemplaza esta parte")
+print(replace)
+
+#metodo split, (este metodo permite crear una lista partiendo desde un texto parametrizado con comas)
+cadena14 = "esto, crea, una, lista, partiendo, de, un, string"
+split = cadena14.split(",")
+print(split)
