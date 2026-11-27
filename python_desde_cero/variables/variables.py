@@ -46,3 +46,12 @@ print("no existe" not in Frase3)
 # Recomendable usar snake_case par trabajar en python
 
 snake_case = "esta es la manera mas recomendable para nombrar una variable."
+
+diccionario = {
+    'nombre' :'hanna',
+
+}
+
+listas = list(["hannah","Parra","19"])
+pop = listas.pop(2)
+print(listas)
